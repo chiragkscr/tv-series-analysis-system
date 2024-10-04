@@ -1,5 +1,7 @@
 import scrapy
 from bs4 import BeautifulSoup
+#run this code by pasting the below code in the terminal
+#scrapy runspider crawler/jujutsu.py -o data/jujutsu.jsonl
 
 class BlogSpider(scrapy.Spider):
     name = 'narutospider'
