@@ -19,9 +19,9 @@ def get_theme(theme_list,subtitles_path , save_path):
         y="score",
         title="Series Themes",
         tooltip=['Theme', "Score"],
-        vertical=True, 
+        vertical=False, 
         width = 500,
-        height=250
+        height=260
 
 
     )
